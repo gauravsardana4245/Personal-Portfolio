@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=IBM+Plex+Sans:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -11,7 +12,7 @@ html{
 }
 body{
     background-color: black;
-    color: white;
+    color: white
 }
 /* body::before{
     content: '';
@@ -92,12 +93,18 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+#sidemenu{
+    /* font-family: 'Baloo Bhaijaan 2', cursive; */
+}
 .header-text{
     font-size: 30px;
     margin: 18% 0;
 }
 .header-text h1{
     font-size: 60px;
+}
+.header-text p{
+    font-size: 35px;
 }
 .header-text h1 span{
     color: #ff004f;
@@ -127,6 +134,11 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight: 600;
     color: white;
+}
+.about-p{
+    margin-top: 4px;
+    font-size: 18px;
+    line-height: 120%;
 }
 .tab-titles{
     display: flex;
@@ -172,6 +184,9 @@ nav ul li a:hover::after{
     display: block;
     /* margin-top: 2px; */
 }
+.tab-contents ul li{
+    margin-top: 8px;
+}
 /* ---------services---------- */
 #services{
     padding: 30px 0;
@@ -184,6 +199,7 @@ nav ul li a:hover::after{
 }
 .services-list div{
     background-color: #262626;
+    border: 1px solid #262626;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -292,6 +308,7 @@ nav ul li a:hover::after{
     text-align: center;
     transition: background 0.5s;
     font-size: 16px;
+    cursor: pointer;
 }
 .btn:hover{
     background: #ff004f;
@@ -314,7 +331,7 @@ flex-basis: 35%;
     /* display: flex;
     flex-direction: row;
     /* justify-content: center; */
-    align-items: center; */
+    align-items: center;
 }
 .social-icons{
     /* margin-top: 30px; */
@@ -338,6 +355,7 @@ flex-basis: 35%;
     top: 45px; */
     text-decoration: none;
     color: white;
+    cursor: pointer;
 
 }
 .contact-right form{
@@ -360,6 +378,10 @@ width: 100%;
 
     
 }
+.btn-link {
+    color: white;
+    text-decoration: none;
+}
 /* ---------footer-------- */
 .copyright{
     width: 100%;
@@ -378,9 +400,6 @@ width: 100%;
     .header-text{
         margin-top: 100%;
         font-size: 16px;
-    }
-    .header-text h1{
-        font-size: 30px;
     }
     nav .fa-solid{
         display: block;
