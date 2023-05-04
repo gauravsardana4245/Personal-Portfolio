@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors')
 
 const app = express();
-const port = 5000;
+const port = 5000 || process.env.port;
 
 app.use((req, res, next) => {
     res.append('Access-Control-Allow-Origin', ['*']);
