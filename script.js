@@ -7,7 +7,7 @@ form.addEventListener('submit', (event) => {
     const data = Object.fromEntries(formData.entries());
 
     console.log(data)
-    fetch('http://localhost:5000/submit-form', {
+    fetch('https://personal-portfolio-backend-2eo3.onrender.com/submit-form', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
