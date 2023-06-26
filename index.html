@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,151 +9,163 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/91df980905.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div id="header">
         <div class="container">
-        <nav>
-            <div class="logo">
-            <span id="G">G</span><span id="Gaurav">aurav.</span>
+            <nav>
+                <div class="logo">
+                    <span id="G">G</span><span id="Gaurav">aurav.</span>
 
-        </div>
-            <ul id="sidemenu">
-                <li><a href="#header"> Home </a></li>
-                <li><a href="#about"> About </a></li>
-                <li><a href="#services"> Services </a></li>
-                <li><a href="#portfolio"> Portfolio </a></li>
-                <li><a href="#contact"> Contact </a></li>
-                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
-            </ul>
-            <i class="fa-solid fa-bars" onclick='showmenu()'></i>
-        </nav>
-        <div class="header-text">
-            <p>Full Stack Developer</p>
-            <h1>Hi, I'm <span> Gaurav</span> <br> Sardana from India</h1>
-        </div>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#services"> Services </a></li>
+                    <li><a href="#portfolio"> Portfolio </a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick='showmenu()'></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span> Gaurav</span> <br> Sardana from India</h1>
+            </div>
         </div>
 
     </div>
     <!-- ----------about--------- -->
     <div id="about">
         <div class="container">
-                <div>
-                    <h1 class="sub-title">About Me</h1>
-                    <p class="about-p">A javascript developer inclined towards creating dynamic and responsive web and mobile applications with a focus on enhancing user experience. A tech enthusiast who is keen to learn new algorithms, models, technologies and a believer of “never stop learning”.</p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab"  id="skills">
-                        <ul>
-                            <li><span class="head"> Languages </span><br>  C, C++, Java, Javascript, Python, Dart </li>
-                            <li><span class="head">Frameworks </span><br> React.js, Node.js, Express.js, Flutter, Django, HTML, CSS </li>
-                            <li><span class="head">Databases </span><br>MySql, MongoDB </li>
-                            <li><span class="head">Other </span><br>  Problem solving, Data structures and algorithms </li>
-                        </ul>
-                    </div>
-                    <!-- <div class="tab-contents"  id="experience">
+            <div>
+                <h1 class="sub-title">About Me</h1>
+                <p class="about-p">A javascript/python developer inclined towards creating dynamic and responsive web
+                    and
+                    mobile applications with a focus on enhancing user experience. A tech enthusiast who is keen to
+                    learn new algorithms, models, technologies and a believer of “never stop learning”.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span class="head"> Languages </span><br> C, C++, Java, Javascript, Python, Dart </li>
+                        <li><span class="head">Frameworks </span><br> React.js, Node.js, Express.js, Flutter, Django,
+                            HTML, CSS </li>
+                        <li><span class="head">Databases </span><br>MySql, MongoDB </li>
+                        <li><span class="head">Other </span><br> Problem solving, Data structures and algorithms </li>
+                    </ul>
+                </div>
+                <!-- <div class="tab-contents"  id="experience">
                         <ul>
                             <li><span>UI/UX </span><br> Creating Web?app interfaces</li>
                             <li><span>Web Development </span><br>Web app development</li>
                             <li><span>App Development </span><br> Building iOS/Android apps</li>
                         </ul>
                     </div> -->
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span class="head">Bachelor Of Technology</span><br> <span class="desc"></span> Mahraja Agrasen Institute Of Technology, Rohini, Delhi | CGPA: 9.31/10(Till 4th Sem) </li>
-                            <li><span class="head">Class XII</span><br> <span class="desc"></span> Modern Vidya Niketan Senior Secondary School, Faridabad, Haryana | Percentage: 88.2%</li>
-                            <li><span class="head">Class X </span><br>  <span class="desc"></span> Mahadev Desai Public School, Faridabad, Haryana | CGPA: 9/10</li>
-                        </ul>
-                    </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span class="head">Bachelor Of Technology</span><br> <span class="desc"></span> Mahraja
+                            Agrasen Institute Of Technology, Rohini, Delhi | CGPA: 9.23/10(Till 5th Sem) </li>
+                        <li><span class="head">Class XII</span><br> <span class="desc"></span> Modern Vidya Niketan
+                            Senior Secondary School, Faridabad, Haryana | Percentage: 88.2%</li>
+                        <li><span class="head">Class X </span><br> <span class="desc"></span> Mahadev Desai Public
+                            School, Faridabad, Haryana | CGPA: 9/10</li>
+                    </ul>
                 </div>
+            </div>
         </div>
     </div>
     <!-- ---------services----------- -->
     <div id="services">
         <div class="container">
             <h1 class="sub-title">Skills</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web <br> Development</h2>
-                <p>Planning, creating and coding web pages, using both technical and non-technical skills to produce interactive and responsive websites </p>
-                <!-- <a href="#">Learn More</a> -->
-            </div>
-            <div>
-                <i class="fa-brands fa-app-store"></i>
-                <h2>App <br> Development</h2>
-                <p>Creating interactive and user-friendly mobile apps to simplify real world world</p>
-                <!-- <a href="#">Learn More</a> -->
-            </div>
-            <div>
-                <i class="fa-solid fa-crop"></i>
-                <h2>Software <br> Development</h2>
-                <p>Transforming complex problems into elegant solutions through innovative software development </p>
-                <!-- <a href="#">Learn More</a> -->
-            </div>
-            
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web <br> Development</h2>
+                    <p>Planning, creating and coding web pages, using both technical and non-technical skills to produce
+                        interactive and responsive websites </p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App <br> Development</h2>
+                    <p>Creating interactive and user-friendly mobile apps to simplify real world world</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Software <br> Development</h2>
+                    <p>Transforming complex problems into elegant solutions through innovative software development </p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
 
+
+            </div>
         </div>
-    </div>
     </div>
     <!-- ----------portfolio---------- -->
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title"> Projects</h1>
+            <h1 class="sub-title">Personal Projects</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/Screenshot_6.png" alt="">
+                    <img src="images/task_manager.png" alt="">
                     <div class="layer">
-                    <h3>Contact App - React </h3>
-                    <p>A react based contacts app where a user can sign in and add, update or delete his/her contacts which are stored in the cloud. </p>
-                    <a href="https://icontacts-react-app-gaurav.netlify.app/#/login" target="_blank"> <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        <h3>Task Manager </h3>
+                        <p>A React+Node.js based to-do list app where a user can signin/signup and add, update or delete
+                            his/her tasks which are stored in the cloud. </p>
+                        <a href="https://task-manager-react-gaurav.vercel.app/" target="_blank"> <i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
                     </div>
                 </div>
                 <div class="work">
-                        <img src="images/Screenshot_7.png" alt="">
-                        <div class="layer">
-                            <h3>News App - React</h3>
-                            <p>A react based news app where users can browse news based on their preferences by selecting one of the various categories. </p>
-                            <a href="https://newsmonkey-gaurav.netlify.app/#/sports" target="_blank"> <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
-                        </div>
+                    <img src="images/expense_tracker.png" alt="">
+                    <div class="layer">
+                        <h3>Expense Tracker App </h3>
+                        <p>A React+Django based expense tracker app where a user can signin/signup and add, update or
+                            delete his/her expenses which are stored in the cloud. </p>
+                        <a href="https://drive.google.com/file/d/1Nu1X4F8gYliNuGFVSGNP8w2KuqW98eWn/view"
+                            target="_blank"> <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot_7.png" alt="">
+                    <div class="layer">
+                        <h3>News App - React</h3>
+                        <p>A react based news app where users can browse news based on their preferences by selecting
+                            one of the various categories. </p>
+                        <a href="https://newsmonkey-gaurav.netlify.app/#/sports" target="_blank"> <i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
                 </div>
                 <div class="work">
                     <img src="images/Screenshot_2.png" alt="">
                     <div class="layer">
                         <h3>TextUtils App - React</h3>
                         <p>A react based text utility app where users can manipulate the text in the way they want. </p>
-                        <a href="https://gauravsardana4245.github.io/Textutils-React/" target="_blank"> <i class="fa-sharp fa-solid fa-arrow-up-right-from-square" ></i> </a>
+                        <a href="https://gauravsardana4245.github.io/Textutils-React/" target="_blank"> <i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/Screenshot_8.png" alt="">
                     <div class="layer">
-                    <h3>Corona Map Website</h3>
-                        <p> A website which indicates the no. of coronavirus cases in various parts of the world on a world map with a color indication of the intensity of cases. </p>
-                    <a href="https://gauravsardana4245.github.io/Corona-Map/" target="_blank"> <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
-                </div>
-                </div>
-                <div class="work">
-                        <img src="images/Screenshot_9.png" alt="">
-                        <div class="layer">
-                        <h3>Dance Academy Website</h3>
-                        <p>A dance academy website with a home page and a contact page where users can fill their information and submit it at the backend. </p>
-                        <a href="https://gaurav-dance-academy.onrender.com/" target="_blank"> <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        <h3>Corona Map Website</h3>
+                        <p> A website which indicates the no. of coronavirus cases in various parts of the world on a
+                            world map with a color indication of the intensity of cases. </p>
+                        <a href="https://gauravsardana4245.github.io/Corona-Map/" target="_blank"> <i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
                     </div>
                 </div>
-                <div class="work">
-                    <img src="images/Screenshot_4.png" alt="">
-                    <div class="layer">
-                    <h3>Food Ordering Website</h3>
-                    <p>A fully responsive template of a food ordering website having basic layout of a food ordering website. </p>
-                    <a href="https://gauravsardana4245.github.io/Food-Ordering-Website/" target="_blank"> <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
-                </div>
-                    </div>
+
+
             </div>
         </div>
-        <a class="btn btn-link" href="https://github.com/gauravsardana4245" target="_blank">See More</a>
+
     </div>
     <!-- -----------contact------------ -->
     <div id="contact">
@@ -165,18 +178,22 @@
                     <div class="social-icons">
                         <!-- <a href=""> <i class="fa-brands fa-facebook"></i></a> -->
                         <!-- <a href=""><i class="fa-brands fa-twitter"></i></a> -->
-                        <a href="https://www.instagram.com/gaurav.sardana07/?next=%2F" target="=_blank"> <i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/gaurav-sardana-1507831b7/" target="=_blank" ><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/gauravsardana4245" target="=_blank" ><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/gaurav.sardana07/?next=%2F" target="=_blank"> <i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/gaurav-sardana-1507831b7/" target="=_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/gauravsardana4245" target="=_blank"><i
+                                class="fa-brands fa-github"></i></a>
                     </div>
-                    <a href="https://docs.google.com/document/d/1JtoUYMjw8ADQ7iAkGj_RauaP3mgd4sOvsZ0akIqLGdY/edit?usp=share_link" target="_blank" class="btn btn2">Download CV</a>
+                    <a href="https://docs.google.com/document/d/1JtoUYMjw8ADQ7iAkGj_RauaP3mgd4sOvsZ0akIqLGdY/edit?usp=share_link"
+                        target="_blank" class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form id="contact-form" action="" name="submit-to-google-sheet">
                         <input type="text" name="name" id="" placeholder="Your Name" required>
                         <input type="email" name="email" id="" placeholder="Your Email" required>
                         <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                         <button class="btn btn2">Submit</button>
+                        <button class="btn btn2">Submit</button>
 
                     </form>
                 </div>
@@ -184,31 +201,33 @@
         </div>
     </div>
     <!-- ---------footer--------- -->
+    <hr>
     <div class="copyright">
         <p>Copyright &#169 Gaurav Sardana</p>
     </div>
 </body>
 <script>
     var tablinks = document.getElementsByClassName('tab-links');
-    var tabcontents= document.getElementsByClassName('tab-contents');
+    var tabcontents = document.getElementsByClassName('tab-contents');
 
     function opentab(tabname) {
-        for(tablink of tablinks) {
+        for (tablink of tablinks) {
             tablink.classList.remove("active-link")
         }
-        for(tabcontent of tabcontents) {
+        for (tabcontent of tabcontents) {
             tabcontent.classList.remove("active-tab")
         }
         event.currentTarget.classList.add('active-link')
         document.getElementById(tabname).classList.add("active-tab");
     }
-var sidemenu = document.getElementById("sidemenu");
-    function closemenu(){
-       sidemenu.style.right = '-200px';
+    var sidemenu = document.getElementById("sidemenu");
+    function closemenu() {
+        sidemenu.style.right = '-200px';
     }
-    function showmenu(){
+    function showmenu() {
         sidemenu.style.right = '0';
     }
 </script>
 <script src="script.js"></script>
+
 </html>
